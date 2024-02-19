@@ -9,11 +9,11 @@ function togglemode() {
   // substituir a Imagem
   if (html.classList.contains('light')) {
     // se tiver light MediaStreamAudioDestinationNode, adicionar a imagem light
-     img.setAttribute('src', './assets/avatar-light.png')
+     img.setAttribute('src', './assets/FotoClaro.png')
   }
     // se tiver sem light mode, manter a imagem normal
   else {
-    img.setAttribute('src', './assets/avatar.png')
+    img.setAttribute('src', './assets/FotoEscuro.png')
   }
   
 }
